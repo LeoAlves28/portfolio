@@ -1,12 +1,242 @@
-<html>
-    <head>
-        <title>Portifolio Leonardo Andrade</title>
-    </head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Portfólio Leonardo Andrade</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Port<span>fólio</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
 
-    <body>
-        <h1> Leonardo Andrade</h1>
-        <br>
-        <p><a href="./sobre mim.html">Sobre mim!</a></p>
-        <p><a href="./trabalhos.html">Experiências!</a></p>
-    </body>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Olá, eu sou <span>Leonardo Andrade</span></h1>
+            <h2>Estudante de Engenharia da Computação</h2>
+            <a href="#projects" class="btn">Ver Projetos</a>
+        </div>
+        <div class="hero-image">
+            <div class="image-container">
+                <img src="./foto-perfil-portifolio.jpg" alt="Minha Foto">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-title">
+            <h2>Sobre <span>Mim</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Desenvolvedor apaixonado por tecnologia</h3>
+                <p> Tenho 21 anos, sou estudante de engenharia da computação (2022.2 - 2027.1) no Senai
+                    Cimatec, atualmente estou no 6º semestre. Tenho como objetivo desenvolver-me
+                    profissionalmente, colocando em prática aspectos abordados em sala de aula</p>
+                <div class="about-info">
+                    <div class="info-item">
+                        <span>Nome: </span>
+                        <p style="margin-left: 5px;">Leonardo Andrade Gomes Alves</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Email:</span>
+                        <p style="margin-left: 5px;">leogalves28@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Experiência:</span>
+                        <p style="margin-left: 5px;">Sem experiência na área</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Localização:</span>
+                        <p style="margin-left: 5px;">Salvador, BA, Brasil</p>
+                    </div>
+                </div>
+                <a href="./Curriculo Leonardo Andrade 2025.pdf" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="section-title">
+            <h2>Minhas <span>Habilidades</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-content">
+            <div class="skills-description">
+                <h3>Soft Skills:</h3>
+                <br>
+                <p>▪Boa comunicação</p>
+                <p>▪Proativo</p>
+                <p>▪Cooperativo</p>
+                <p>▪Experiência com público</p>
+                <p>▪Liderança</p>
+                <p>▪Inglês Avançado</p>
+                <p>▪Espanhol intermediário</p>
+                <br> 
+                
+            </div>
+            <div class="skills-bars">
+                <h4>Linguagens de programação:</h4>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>C</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress C"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>C++</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress CM"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress python"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress html"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress css"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress js"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-title">
+            <h2>Meus <span>Projetos</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="projects-content">
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="./Foto gerador de ticket.jpeg" alt="Projeto 1">
+                    <div class="project-overlay">
+                        <a href="https://github.com/LeoAlves28/GERADOR-TICKET"><i class="fab fa-github"></i></a>
+                        <a href="https://gerador-ticket-cyan.vercel.app/"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Gerador de Ticket</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="project-image">
+                    <img src="./calculadora idade foto.jpeg" alt="Projeto 2">
+                    <div class="project-overlay">
+                        <a href="https://github.com/LeoAlves28/minha-calculadora"><i class="fab fa-github"></i></a>
+                        <a href="https://minha-calculadora-ruddy.vercel.app/"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Calculadora de Idade</h3>
+                    <p>HTML, CSS, JavaScript, React, Node.js</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Entre em <span>Contato</span></h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>leogalves28@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>(71)99363-9047</span>
+                </div>
+                <div class = "info-item">
+                    <i class = "fab fa-whatsapp"></i>
+                    <span>(71)993639047</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Salvador, BA, Brasil</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/LeoAlves28"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/leonardo-andrade-88298628b/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/leoag28/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" action="https://formsubmit.co/leogalves28@gmail.com" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Seu Nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Seu Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="_subject" placeholder="Assunto" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="copyright">
+                <p>&copy; Leonardo Andrade. Todos os direitos reservados.</p>
+            </div>
+            <div class="back-to-top">
+                <a href="#home"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
